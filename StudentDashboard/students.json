@@ -1,0 +1,69 @@
+[
+  {
+    "id": "68102010219",
+    "name": "Akira taiyo lersvidhaya",
+    "major": "CS",
+    "year": 1,
+    "gpa": 3.25,
+    "status": "active",
+    "attendance": 92
+  },
+  {
+    "id": "65123456",
+    "name": "Somchai Jaidee",
+    "major": "CS",
+    "year": 2,
+    "gpa": 3.25,
+    "status": "active",
+    "attendance": 92
+  },
+  {
+    "id": "65123457",
+    "name": "Suda Dee",
+    "major": "IT",
+    "year": 3,
+    "gpa": 2.10,
+    "status": "probation",
+    "attendance": 68
+  },
+  {
+    "id": "6400000121",
+    "name": "Somchai Jaidee",
+    "major": "CS",
+    "gpa": 3.50,
+    "status": "active",
+    "attendance": 67
+  },
+  {
+    "id": "6400000221",
+    "name": "Somsri Rakrian",
+    "major": "IT",
+    "gpa": 1.85,
+    "status": "active",
+    "attendance": 78
+  },
+  {
+    "id": "6400000321",
+    "name": "Somkiat Kengmak",
+    "major": "CS",
+    "gpa": 4.00,
+    "status": "active",
+    "attendance": 97
+  },
+  {
+    "id": "6400000421",
+    "name": "Manee Meeta",
+    "major": "SE",
+    "gpa": 2.75,
+    "status": "active",
+    "attendance": 79
+  },
+  {
+  "id": "6400000457",
+    "name": "Manisara naka",
+    "major": "SE",
+    "gpa": 3.40,
+    "status": "active",
+    "attendance": 83
+  }
+]
