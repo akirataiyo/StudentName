@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Dashboard</h1>
+        
+        <div class="dashboard">
+            <div class="card">Total Students: <span id="total-students">0</span></div>
+            <div class="card">Average GPA: <span id="avg-gpa">0.00</span></div>
+            <div class="card">Probation: <span id="probation-count">0</span></div>
+            <div class="card">Top Student: <span id="top-student">-</span></div>
+        </div>
+
+        <div class="controls">
+            <input type="text" id="search-input" placeholder="Search by Name or ID...">
+            <select id="major-filter">
+                <option value="all">All Majors</option>
+                <option value="CS">CS</option>
+                <option value="IT">IT</option>
+                <option value="SE">SE</option>
+            </select>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Major</th>
+                    <th>GPA</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="student-table-body">
+                </tbody>
+        </table>
+        
+        <div id="student-detail" class="detail-box" style="display:none;">
+            <h3>Student Details</h3>
+            <p id="detail-content"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
